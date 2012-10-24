@@ -1,0 +1,24 @@
+#!/bin/bash
+declare -x awk="/usr/bin/awk"
+declare -x killall="/usr/bin/killall"
+declare -x sudo="/usr/bin/sudo"
+declare -x launchctl="/bin/launchctl"
+declare -x ps="/bin/ps"
+
+declare -x APPLICATION_NAME="Mac DNA.app"
+declare -x LAUNCHD_LABEL="com.gene.macdna.launchd"
+declare -x MENU_PATH="/var/gne/macdna/$APPLICATION_NAME"
+declare -x LAUNCHD_PATH="/Library/LaunchAgents/$LAUNCHD_LABEL.plist"
+
+declare -xi LOGIN_WINDOW_PID="$($ps -axww |
+			$awk '/[l]oginwindow/{print $1}')"
+# Unload the launchd item as the user
+echo "Found loginwindow PID: $LOGIN_WINDOW_PID"
+if [ $LOGIN_WINDOW_PID -eq 0 ] ; then
+	echo "Loginwindow process is not running"
+else
+        $launchctl bsexec $LOGIN_WINDOW_PID $sudo -u $USER $launchctl remove "$LAUNCHD_LABEL"
+fi
+# Good measure
+$killall GNE\ Mac\ Status &>/dev/null 
+exit 0

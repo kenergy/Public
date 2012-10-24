@@ -1,0 +1,40 @@
+#!/bin/bash -x
+declare -x awk="/usr/bin/awk"
+declare -x chmod="/bin/chmod"
+declare -x chown="/usr/sbin/chown"
+declare -x defaults="/usr/bin/defaults"
+declare -x grep="/usr/bin/grep"
+declare -x sleep="/bin/sleep"
+declare -x sudo="/usr/bin/sudo"
+declare -x open="/usr/bin/open"
+declare -x launchctl="/bin/launchctl"
+declare -x ps="/bin/ps"
+
+
+declare -x DSTROOT="$3"
+declare -x LOGIN_PLIST="${DSTROOT}/Library/Preferences/loginwindow.plist"
+declare -x APPLICATION_NAME="Mac DNA.app"
+declare -x LAUNCHD_LABEL="com.gene.macdna.launchd"
+declare -x MENU_PATH="/var/gne/macdna/$APPLICATION_NAME"
+declare -x LOAD_PATH="$MENU_PATH/Contents/MacOS/GNE Mac Status"
+declare -x LAUNCHD_PATH="/Library/LaunchAgents/$LAUNCHD_LABEL.plist"
+
+declare -xi LOGIN_WINDOW_PID="$($ps -axww | $awk '/[l]oginwindow/{print $1}')"
+echo "Found loginwindow PID: $LOGIN_WINDOW_PID"
+
+
+$chmod 755 "$LAUNCHD_PATH"
+$chown 0:0 "$LAUNCHD_PATH"	
+if [ $DSTROOT = '/' ] ; then
+	if [ $LOGIN_WINDOW_PID -eq 0 ] ; then
+	        echo "Loginwindow process is not running"
+	else
+		if [ -f "$LOAD_PATH" ] ; then
+			$launchctl bsexec $LOGIN_WINDOW_PID $sudo -u $USER $launchctl  submit  -l $LAUNCHD_LABEL -p /var/gne/macdna/Mac\ DNA.app/Contents/MacOS/GNE\ Mac\ Status 
+		else
+			echo "Path not found: $LOAD_PATH"
+			exit 1
+		fi
+	fi
+fi 
+exit 0

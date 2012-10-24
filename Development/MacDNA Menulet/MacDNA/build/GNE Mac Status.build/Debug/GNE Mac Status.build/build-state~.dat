@@ -1,0 +1,1471 @@
+TGNE Mac Status
+v7
+r0
+t335949617.758601
+cCheck dependencies
+cProcessInfoPlistFile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Info.plist" GNE_Mac_Status-Info.plist
+cCopyStringsFile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/acid/Dropbox/code/gene/GNE Mac Status/English.lproj/MainMenu.xib"
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/dna.png" dna.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/red.png" red.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/green.png" green.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/sm_red_dna.png" sm_red_dna.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/sm_black_dna.png" sm_black_dna.png
+cCopyPlistFile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/URLHandler.scriptTerminology" URLHandler.scriptTerminology
+cCopyPlistFile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/URLHandler.scriptSuite" URLHandler.scriptSuite
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/yellow.png" yellow.png
+cCopyPlistFile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/com.gene.settings.plist" com.gene.settings.plist
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/getSoftwareUpdates.sh" bin/getSoftwareUpdates.sh
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/sm_yellow_dna.png" sm_yellow_dna.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/grey.png" grey.png
+cCompileXIB "/Users/acid/Dropbox/code/gene/GNE Mac Status/PleaseWait.xib"
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/caution.png" caution.png
+cCompileXIB "/Users/acid/Dropbox/code/gene/GNE Mac Status/SummaryWindow.xib"
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/backup_sm.png" backup_sm.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/directory_sm.png" directory_sm.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/generic_sm.png" generic_sm.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/hardware_sms.png" hardware_sms.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/security_sm.png" security_sm.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/softwareupdate_sm.png" softwareupdate_sm.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/lrg_green.png" lrg_green.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/lrg_red.png" lrg_red.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/lrg_yellow.png" lrg_yellow.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/battery_sm.png" battery_sm.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/drive_sm.png" drive_sm.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/app_icon.icns" app_icon.icns
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/url_sm.png" url_sm.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/getADZone.sh" getADZone.sh
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/getDSStatus.sh" getDSStatus.sh
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/getJoinedAs.sh" getJoinedAs.sh
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/getADDomain.sh" getADDomain.sh
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/repair_sm.png" repair_sm.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/refresh_sm.png" refresh_sm.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/healthy_sm.png" healthy_sm.png
+cCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/error_sm.png" error_sm.png
+cProcessPCH /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch.gch GNE_Mac_Status_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/GNE_Mac_Status_DataModel.mom" "/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_DataModel.xcdatamodel"
+cOSACompile AttemptToRepair.applescript
+cCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/main.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/GNE_Mac_Status_AppDelegate.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_AppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/URLHandlerCommand.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/URLHandlerCommand.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/DiskSpaceMonitor.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/DiskSpaceMonitor.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/PleaseWaitController.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/PleaseWaitController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/StatusMessage.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/StatusMessage.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/RunAppleScript.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/RunAppleScript.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Plugins.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/Plugins.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/SummaryWindowController.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/SummaryWindowController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/GlobalStatus.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/GlobalStatus.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/StatusIconCell.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/StatusIconCell.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Constants.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/Constants.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Recon.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/Recon.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/MacOS/GNE Mac Status" normal x86_64
+cTouch "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c000000004C239DAA000000000000B3BB
+t1277402538
+s46011
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004C239DAB0000000000000AF4
+t1277402539
+s2804
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004CAA7404000000000001A854
+t1286239236
+s108628
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004A11F0980000000000000400
+t1242689688
+s1024
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004BBFB0C70000000000001A78
+t1270853831
+s6776
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CAA74050000000000031758
+t1286239237
+s202584
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E274D460000000000006560
+t1311198534
+s25952
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/AttemptToRepair.applescript
+c000000004E55F78C00000000000001D8
+t1314256780
+s472
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/Constants.h
+c000000004E5563D30000000000000319
+t1314218963
+s793
+i<Cocoa/Cocoa.h>
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/Constants.m
+c000000004E5563EC000000000000042F
+t1314218988
+s1071
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/DiskSpaceMonitor.h
+c000000004E2876960000000000000295
+t1311274646
+s661
+i<Cocoa/Cocoa.h>
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/DiskSpaceMonitor.m
+c000000004E4F15D70000000000000A62
+t1313805783
+s2658
+i"DiskSpaceMonitor.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/English.lproj/InfoPlist.strings
+c000000004E137D2C000000000000005A
+t1309900076
+s90
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/English.lproj/MainMenu.xib
+c000000004E55F6670000000000039021
+t1314256487
+s233505
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_AppDelegate.h
+c000000004E55F52300000000000024BD
+t1314256163
+s9405
+i<Cocoa/Cocoa.h>
+i"DiskSpaceMonitor.h"
+i"Constants.h"
+i<CoreServices/CoreServices.h>
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_AppDelegate.m
+c000000004E55F50600000000000156E9
+t1314256134
+s87785
+i"GNE_Mac_Status_AppDelegate.h"
+i"PleaseWaitController.h"
+i"SummaryWindowController.h"
+i"Plugins.h"
+i"GlobalStatus.h"
+i"Constants.h"
+i"Recon.h"
+i"RunAppleScript.h"
+i<SystemConfiguration/SystemConfiguration.h>
+i<CoreFoundation/CoreFoundation.h>
+i<CoreFoundation/CFString.h>
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_DataModel.xcdatamodel
+c000000004E137D2C0000000000000088
+t1309900076
+s136
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_Prefix.pch
+c000000004E137D2C000000000000009F
+t1309900076
+s159
+i<Cocoa/Cocoa.h>
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/GlobalStatus.h
+c000000004E4D805000000000000001B2
+t1313701968
+s434
+i<Cocoa/Cocoa.h>
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/GlobalStatus.m
+c000000004E52F4D50000000000000390
+t1314059477
+s912
+i"GlobalStatus.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/ImageTextCell.h
+c000000004E4EABB50000000000000587
+t1313778613
+s1415
+i<Cocoa/Cocoa.h>
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/ImageTextCell.m
+c000000004E4EAC9E0000000000001316
+t1313778846
+s4886
+i"ImageTextCell.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/PleaseWait.xib
+c000000004E55E452000000000000637B
+t1314251858
+s25467
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/PleaseWaitController.h
+c000000004E542424000000000000012F
+t1314137124
+s303
+i<Cocoa/Cocoa.h>
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/PleaseWaitController.m
+c000000004E5424240000000000000335
+t1314137124
+s821
+i"PleaseWaitController.h"
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/Plugins.h
+c000000004E55405F0000000000000566
+t1314209887
+s1382
+i<Cocoa/Cocoa.h>
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/Plugins.m
+c000000004E55E7C4000000000000248B
+t1314252740
+s9355
+i"Plugins.h"
+i"GNE_Mac_Status_AppDelegate.h"
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/Recon.h
+c000000004E5431790000000000000216
+t1314140537
+s534
+i<Cocoa/Cocoa.h>
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/Recon.m
+c000000004E54338D00000000000009FD
+t1314141069
+s2557
+i"Recon.h"
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/RunAppleScript.h
+c000000004E535E030000000000000168
+t1314086403
+s360
+i<Cocoa/Cocoa.h>
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/RunAppleScript.m
+c000000004E55F3B90000000000000944
+t1314255801
+s2372
+i"RunAppleScript.h"
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/StatusIconCell.h
+c000000004E54317700000000000001A6
+t1314140535
+s422
+i<Cocoa/Cocoa.h>
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/StatusIconCell.m
+c000000004E55D9C90000000000000F40
+t1314249161
+s3904
+i"StatusIconCell.h"
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/StatusMessage.h
+c000000004E55F44300000000000003AA
+t1314255939
+s938
+i<Cocoa/Cocoa.h>
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/StatusMessage.m
+c000000004E55F4430000000000001335
+t1314255939
+s4917
+i"StatusMessage.h"
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/SummaryWindow.xib
+c000000004E55DF1C000000000000F565
+t1314250524
+s62821
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/SummaryWindowController.h
+c000000004E55F4390000000000000762
+t1314255929
+s1890
+i<Cocoa/Cocoa.h>
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/SummaryWindowController.m
+c000000004E55F56D0000000000003DFD
+t1314256237
+s15869
+i"SummaryWindowController.h"
+i"GlobalStatus.h"
+i"StatusIconCell.h"
+i"PleaseWaitController.h"
+i"Constants.h"
+i"RunAppleScript.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/URLHandler.scriptSuite
+c000000004D6C0FCA000000000000010C
+t1298927562
+s268
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/URLHandler.scriptTerminology
+c000000004D6C0FDA0000000000000101
+t1298927578
+s257
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/URLHandlerCommand.h
+c000000004E4ED9DA0000000000000178
+t1313790426
+s376
+i<Cocoa/Cocoa.h>
+i<Foundation/Foundation.h>
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/URLHandlerCommand.m
+c000000004E53664200000000000003D9
+t1314088514
+s985
+i"URLHandlerCommand.h"
+i"PleaseWaitController.h"
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/app_icon.icns
+c000000004E557C7D000000000003066E
+t1314225277
+s198254
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/backup_sm.png
+c000000004E4ED59A00000000000003A9
+t1313789338
+s937
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/battery_sm.png
+c000000004E4EC71D0000000000000601
+t1313785629
+s1537
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/bin/getDirectoryServiceStatus.sh
+c000000004E53E14A0000000000000025
+t1314120010
+s37
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/bin/getSoftwareUpdates.sh
+c000000004E2FB71800000000000002CB
+t1311749912
+s715
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app
+t1314256817
+s102
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Info.plist
+t1314256795
+s1207
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/MacOS/GNE Mac Status
+t1314256817
+s207720
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/PkgInfo
+t1314256795
+s8
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/AttemptToRepair.scpt
+t1314256810
+s3314
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1314256796
+s90
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/English.lproj/MainMenu.nib
+t1314256797
+s34696
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/GNE_Mac_Status_DataModel.mom
+t1314256810
+s488
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/PleaseWait.nib
+t1314256797
+s5318
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/SummaryWindow.nib
+t1314256800
+s11946
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/URLHandler.scriptSuite
+t1314256796
+s268
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/URLHandler.scriptTerminology
+t1314256796
+s257
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/app_icon.icns
+t1314256798
+s198254
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/backup_sm.png
+t1314256798
+s937
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/battery_sm.png
+t1314256798
+s1537
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/caution.png
+t1314256798
+s558
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/com.gene.settings.plist
+t1314256796
+s14515
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/directory_sm.png
+t1314256798
+s2643
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/dna-red.png
+t1313805284
+s2837
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/dna.png
+t1314256796
+s2834
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/drive_sm.png
+t1314256798
+s1792
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/error_sm.png
+t1314256798
+s685
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/generic_sm.png
+t1314256798
+s1542
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/getADDomain.sh
+t1314256798
+s376
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/getADZone.sh
+t1314256798
+s414
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/getDSStatus.sh
+t1314256798
+s572
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/getDirectoryServiceStatus.sh
+t1314120867
+s37
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/getExampleScript.sh
+t1314117818
+s140
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/getJoinedAs.sh
+t1314256798
+s428
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/getSoftwareUpdates.sh
+t1314256796
+s715
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/green.png
+t1314256796
+s438
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/grey.png
+t1314256796
+s3236
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/hardware_sms.png
+t1314256798
+s2588
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/hd_space_large.jpg
+t1313777015
+s25576
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/healthy_sm.png
+t1314256798
+s3424
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/lrg_green.png
+t1314256798
+s4272
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/lrg_red.png
+t1314256798
+s1723
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/lrg_yellow.png
+t1314256798
+s1179
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/red.png
+t1314256796
+s431
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/refresh_sm.png
+t1314256798
+s669
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/repair.png
+t1314117818
+s700
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/repair_neg.png
+t1314117819
+s311
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/repair_sm.png
+t1314256798
+s3236
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/security_sm.png
+t1314256798
+s2918
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/sm_black_dna.png
+t1314256796
+s3596
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/sm_orange_dna.png
+t1314117816
+s3785
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/sm_red_dna.png
+t1314256796
+s3365
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/sm_yellow_dna.png
+t1314256796
+s3477
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/softwareupdate_sm.png
+t1314256798
+s2651
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/url_sm.png
+t1314256798
+s580
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/yellow.png
+t1314256796
+s3086
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Constants.o
+t1314256816
+s8288
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/DiskSpaceMonitor.o
+t1314256812
+s21228
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/GNE Mac Status.LinkFileList
+c000000004E55F79B0000000000000700
+t1314256795
+s1792
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/GNE_Mac_Status_AppDelegate.o
+t1314256814
+s255080
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/GlobalStatus.o
+t1314256815
+s19760
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/ImageTextCell.o
+t1313778848
+s36648
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/PleaseWaitController.o
+t1314256812
+s17428
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Plugins.o
+t1314256815
+s36796
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Recon.o
+t1314256817
+s18580
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/RunAppleScript.o
+t1314256814
+s22196
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/StatusIconCell.o
+t1314256816
+s30380
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/StatusMessage.o
+t1314256813
+s39744
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/SummaryWindowController.o
+t1314256815
+s73208
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/URLHandlerCommand.o
+t1314256811
+s21948
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/main.o
+t1314256811
+s5000
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/caution.png
+c000000004E4A977B000000000000022E
+t1313511291
+s558
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/com.gene.settings.plist
+c000000004E55D8BF00000000000038B3
+t1314248895
+s14515
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/directory_sm.png
+c000000004E4EB9320000000000000A53
+t1313782066
+s2643
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/dna-red.png
+c000000004E13934B0000000000000B15
+t1309905739
+s2837
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/dna.png
+c000000004E13932C0000000000000B12
+t1309905708
+s2834
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/drive_sm.png
+c000000004E4EC7050000000000000700
+t1313785605
+s1792
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/error_sm.png
+c000000004E55785800000000000002AD
+t1314224216
+s685
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/generic_sm.png
+c000000004E4EB9D20000000000000606
+t1313782226
+s1542
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/getADDomain.sh
+c000000004E5535BF0000000000000178
+t1314207167
+s376
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/getADZone.sh
+c000000004E5534F7000000000000019E
+t1314206967
+s414
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/getDSStatus.sh
+c000000004E556058000000000000023C
+t1314218072
+s572
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/getExampleScript.sh
+c000000004E4B0266000000000000008C
+t1313538662
+s140
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/getJoinedAs.sh
+c000000004E55344100000000000001AC
+t1314206785
+s428
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/green.png
+c000000004E558E7800000000000001B6
+t1314229880
+s438
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/grey.png
+c000000004E174FC70000000000000CA4
+t1310150599
+s3236
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/hardware_sms.png
+c000000004E4EBA3A0000000000000A1C
+t1313782330
+s2588
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/hd_space_large.jpg
+c000000004E4EA4C600000000000063E8
+t1313776838
+s25576
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/healthy_sm.png
+c000000004E55777B0000000000000D60
+t1314223995
+s3424
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/lrg_green.png
+c000000004E4EBC8100000000000010B0
+t1313782913
+s4272
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/lrg_red.png
+c000000004E4EBB9F00000000000006BB
+t1313782687
+s1723
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/lrg_yellow.png
+c000000004E4EBBD7000000000000049B
+t1313782743
+s1179
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/main.m
+c000000004E541F9600000000000000F9
+t1314135958
+s249
+i<Cocoa/Cocoa.h>
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/red.png
+c000000004E558E7400000000000001AF
+t1314229876
+s431
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/refresh_sm.png
+c000000004E5570F4000000000000029D
+t1314222324
+s669
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/repair.png
+c000000004E4AA9A800000000000002BC
+t1313515944
+s700
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/repair_neg.png
+c000000004E53D2CA0000000000000137
+t1314116298
+s311
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/repair_sm.png
+c000000004E55707D0000000000000CA4
+t1314222205
+s3236
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/security_sm.png
+c000000004E4EBB1F0000000000000B66
+t1313782559
+s2918
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/sm_black_dna.png
+c000000004E4BFE2E0000000000000E0C
+t1313603118
+s3596
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/sm_orange_dna.png
+c000000004E13990E0000000000000EC9
+t1309907214
+s3785
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/sm_red_dna.png
+c000000004E4BFE6F0000000000000D25
+t1313603183
+s3365
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/sm_yellow_dna.png
+c000000004E4BFDFC0000000000000D95
+t1313603068
+s3477
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/softwareupdate_sm.png
+c000000004E4EB94B0000000000000A5B
+t1313782091
+s2651
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/url_sm.png
+c000000004E5578240000000000000244
+t1314224164
+s580
+
+N/Users/acid/Dropbox/code/gene/GNE Mac Status/yellow.png
+c000000004E558E7A0000000000000C0E
+t1314229882
+s3086
+
+N/var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch.gch
+t1314256809
+s54306576
+
+NGNE_Mac_Status-Info.plist
+c000000004E54187B00000000000004D3
+t1314134139
+s1235
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies335949595#335949595#0(0"0(0#1#0"4529497408#0"0#
+
+CCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Constants.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/Constants.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335949615.966891
+e335949616.689752
+r1
+xCompileC
+xbuild/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Constants.o
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/Constants.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/Constants.m335949615#335949616#0(0"0(0#0#56"/Users/acid/Dropbox/code/gene/GNE Mac Status/Constants.m4529495696#1240"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/Constants.m" -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Constants.o"0#
+
+CCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/DiskSpaceMonitor.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/DiskSpaceMonitor.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335949611.630301
+e335949612.197916
+r1
+xCompileC
+xbuild/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/DiskSpaceMonitor.o
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/DiskSpaceMonitor.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/acid/Dropbox/code/gene/GNE Mac Status/DiskSpaceMonitor.m: In function '-[DiskSpaceMonitor updateDiskSpaceInfo]':
+o/Users/acid/Dropbox/code/gene/GNE Mac Status/DiskSpaceMonitor.m:31: warning: 'fileSystemAttributesAtPath:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:165)
+lSLF07#2@71"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/DiskSpaceMonitor.m335949611#335949612#0(361"/Users/acid/Dropbox/code/gene/GNE Mac Status/DiskSpaceMonitor.m: In function '-[DiskSpaceMonitor updateDiskSpaceInfo]':/Users/acid/Dropbox/code/gene/GNE Mac Status/DiskSpaceMonitor.m:31: warning: 'fileSystemAttributesAtPath:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:165)1(22@163"'fileSystemAttributesAtPath:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:165)335949611#120#241#0(6@63"/Users/acid/Dropbox/code/gene/GNE Mac Status/DiskSpaceMonitor.m335498583#31#0#31#0#33"'*' is deprecated (declared at *)0(0#0#63"/Users/acid/Dropbox/code/gene/GNE Mac Status/DiskSpaceMonitor.m4529495696#1254"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/DiskSpaceMonitor.m" -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/DiskSpaceMonitor.o"0#
+
+CCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/GNE_Mac_Status_AppDelegate.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_AppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335949610.681707
+e335949614.339513
+r1
+xCompileC
+xbuild/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/GNE_Mac_Status_AppDelegate.o
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_AppDelegate.m335949610#335949614#0(0"0(0#0#73"/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_AppDelegate.m4529495696#1274"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_AppDelegate.m" -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/GNE_Mac_Status_AppDelegate.o"0#
+
+CCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/GlobalStatus.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/GlobalStatus.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335949615.213355
+e335949615.966738
+r1
+xCompileC
+xbuild/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/GlobalStatus.o
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/GlobalStatus.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/GlobalStatus.m335949615#335949615#0(0"0(0#0#59"/Users/acid/Dropbox/code/gene/GNE Mac Status/GlobalStatus.m4529495696#1246"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/GlobalStatus.m" -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/GlobalStatus.o"0#
+
+CCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/ImageTextCell.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/ImageTextCell.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335471647.309596
+e335471648.385874
+r1
+xCompileC
+xbuild/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/ImageTextCell.o
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/ImageTextCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/ImageTextCell.m335471647#335471648#0(0"0(0#0#60"/Users/acid/Dropbox/code/gene/GNE Mac Status/ImageTextCell.m4494720656#1248"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/ImageTextCell.m" -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/ImageTextCell.o"0#
+
+CCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/PleaseWaitController.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/PleaseWaitController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335949612.198072
+e335949612.731587
+r1
+xCompileC
+xbuild/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/PleaseWaitController.o
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/PleaseWaitController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/PleaseWaitController.m335949612#335949612#0(0"0(0#0#67"/Users/acid/Dropbox/code/gene/GNE Mac Status/PleaseWaitController.m4529495696#1262"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/PleaseWaitController.m" -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/PleaseWaitController.o"0#
+
+CCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Plugins.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/Plugins.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335949614.339691
+e335949615.213139
+r1
+xCompileC
+xbuild/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Plugins.o
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/Plugins.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/Plugins.m335949614#335949615#0(0"0(0#0#54"/Users/acid/Dropbox/code/gene/GNE Mac Status/Plugins.m4529495696#1236"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/Plugins.m" -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Plugins.o"0#
+
+CCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Recon.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/Recon.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335949616.689909
+e335949617.307363
+r1
+xCompileC
+xbuild/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Recon.o
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/Recon.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/Recon.m335949616#335949617#0(0"0(0#0#52"/Users/acid/Dropbox/code/gene/GNE Mac Status/Recon.m4529495696#1232"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/Recon.m" -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/Recon.o"0#
+
+CCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/RunAppleScript.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/RunAppleScript.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335949613.592394
+e335949614.607490
+r1
+xCompileC
+xbuild/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/RunAppleScript.o
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/RunAppleScript.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/RunAppleScript.m335949613#335949614#0(0"0(0#0#61"/Users/acid/Dropbox/code/gene/GNE Mac Status/RunAppleScript.m4529495696#1250"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/RunAppleScript.m" -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/RunAppleScript.o"0#
+
+CCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/StatusIconCell.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/StatusIconCell.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335949615.713999
+e335949616.718773
+r1
+xCompileC
+xbuild/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/StatusIconCell.o
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/StatusIconCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/StatusIconCell.m335949615#335949616#0(0"0(0#0#61"/Users/acid/Dropbox/code/gene/GNE Mac Status/StatusIconCell.m4529495696#1250"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/StatusIconCell.m" -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/StatusIconCell.o"0#
+
+CCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/StatusMessage.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/StatusMessage.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335949612.731768
+e335949613.587610
+r1
+xCompileC
+xbuild/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/StatusMessage.o
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/StatusMessage.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/StatusMessage.m335949612#335949613#0(0"0(0#0#60"/Users/acid/Dropbox/code/gene/GNE Mac Status/StatusMessage.m4529495696#1248"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/StatusMessage.m" -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/StatusMessage.o"0#
+
+CCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/SummaryWindowController.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/SummaryWindowController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335949614.607643
+e335949615.713846
+r1
+xCompileC
+xbuild/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/SummaryWindowController.o
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/SummaryWindowController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/SummaryWindowController.m335949614#335949615#0(0"0(0#0#70"/Users/acid/Dropbox/code/gene/GNE Mac Status/SummaryWindowController.m4529495696#1268"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/SummaryWindowController.m" -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/SummaryWindowController.o"0#
+
+CCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/URLHandlerCommand.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/URLHandlerCommand.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335949611.046589
+e335949611.630109
+r1
+xCompileC
+xbuild/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/URLHandlerCommand.o
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/URLHandlerCommand.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/URLHandlerCommand.m335949611#335949611#0(0"0(0#0#64"/Users/acid/Dropbox/code/gene/GNE Mac Status/URLHandlerCommand.m4529495696#1256"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/URLHandlerCommand.m" -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/URLHandlerCommand.o"0#
+
+CCompileC "build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/main.o" "/Users/acid/Dropbox/code/gene/GNE Mac Status/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335949610.153775
+e335949611.046414
+r1
+xCompileC
+xbuild/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/main.o
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/main.m335949610#335949611#0(0"0(0#0#51"/Users/acid/Dropbox/code/gene/GNE Mac Status/main.m4529495696#1230"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/main.m" -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/main.o"0#
+
+CCompileXIB "/Users/acid/Dropbox/code/gene/GNE Mac Status/English.lproj/MainMenu.xib"
+s335949595.334100
+e335949598.353539
+r1
+xCompileXIB
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib335949595#335949598#0(0"0(0#0#71"/Users/acid/Dropbox/code/gene/GNE Mac Status/English.lproj/MainMenu.xib4529495696#395"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/acid/Dropbox/code/gene/GNE Mac Status/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB "/Users/acid/Dropbox/code/gene/GNE Mac Status/PleaseWait.xib"
+s335949596.442587
+e335949598.277557
+r1
+xCompileXIB
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/PleaseWait.xib
+lSLF07#2@25"CompileXIB PleaseWait.xib335949596#335949598#0(0"0(0#0#59"/Users/acid/Dropbox/code/gene/GNE Mac Status/PleaseWait.xib4529495696#371"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/PleaseWait.nib" "/Users/acid/Dropbox/code/gene/GNE Mac Status/PleaseWait.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB "/Users/acid/Dropbox/code/gene/GNE Mac Status/SummaryWindow.xib"
+s335949598.282180
+e335949600.671623
+r1
+xCompileXIB
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/SummaryWindow.xib
+lSLF07#2@28"CompileXIB SummaryWindow.xib335949598#335949600#0(0"0(0#0#62"/Users/acid/Dropbox/code/gene/GNE Mac Status/SummaryWindow.xib4529495696#377"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/SummaryWindow.nib" "/Users/acid/Dropbox/code/gene/GNE Mac Status/SummaryWindow.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyPlistFile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/URLHandler.scriptSuite" URLHandler.scriptSuite
+s335949596.160566
+e335949596.223067
+r1
+xCopyPlistFile
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/URLHandler.scriptSuite
+xURLHandler.scriptSuite
+lSLF07#2@27"Copy URLHandler.scriptSuite335949596#335949596#0(0"0(0#0#67"/Users/acid/Dropbox/code/gene/GNE Mac Status/URLHandler.scriptSuite4529495696#274"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist URLHandler.scriptSuite --outdir "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCopyPlistFile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/URLHandler.scriptTerminology" URLHandler.scriptTerminology
+s335949596.098896
+e335949596.160089
+r1
+xCopyPlistFile
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/URLHandler.scriptTerminology
+xURLHandler.scriptTerminology
+lSLF07#2@33"Copy URLHandler.scriptTerminology335949596#335949596#0(0"0(0#0#73"/Users/acid/Dropbox/code/gene/GNE Mac Status/URLHandler.scriptTerminology4529495696#280"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist URLHandler.scriptTerminology --outdir "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCopyPlistFile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/com.gene.settings.plist" com.gene.settings.plist
+s335949596.226529
+e335949596.312474
+r1
+xCopyPlistFile
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/com.gene.settings.plist
+xcom.gene.settings.plist
+lSLF07#2@28"Copy com.gene.settings.plist335949596#335949596#0(0"0(0#0#68"/Users/acid/Dropbox/code/gene/GNE Mac Status/com.gene.settings.plist4529495696#275"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist com.gene.settings.plist --outdir "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCopyStringsFile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s335949595.332759
+e335949596.061978
+r1
+xCopyStringsFile
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings335949595#335949596#0(0"0(0#0#76"/Users/acid/Dropbox/code/gene/GNE Mac Status/English.lproj/InfoPlist.strings4529495696#389"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/English.lproj"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/app_icon.icns" app_icon.icns
+s335949598.597927
+e335949598.703347
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/app_icon.icns
+xapp_icon.icns
+lSLF07#2@18"Copy app_icon.icns335949598#335949598#0(0"0(0#0#58"/Users/acid/Dropbox/code/gene/GNE Mac Status/app_icon.icns4529495696#374"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/app_icon.icns" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/backup_sm.png" backup_sm.png
+s335949598.354123
+e335949598.534024
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/backup_sm.png
+xbackup_sm.png
+lSLF07#2@18"Copy backup_sm.png335949598#335949598#0(0"0(0#0#58"/Users/acid/Dropbox/code/gene/GNE Mac Status/backup_sm.png4529495696#374"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/backup_sm.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/battery_sm.png" battery_sm.png
+s335949598.562424
+e335949598.702951
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/battery_sm.png
+xbattery_sm.png
+lSLF07#2@19"Copy battery_sm.png335949598#335949598#0(0"0(0#0#59"/Users/acid/Dropbox/code/gene/GNE Mac Status/battery_sm.png4529495696#375"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/battery_sm.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/caution.png" caution.png
+s335949598.277754
+e335949598.298447
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/caution.png
+xcaution.png
+lSLF07#2@16"Copy caution.png335949598#335949598#0(0"0(0#0#56"/Users/acid/Dropbox/code/gene/GNE Mac Status/caution.png4529495696#372"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/caution.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/directory_sm.png" directory_sm.png
+s335949598.361197
+e335949598.534269
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/directory_sm.png
+xdirectory_sm.png
+lSLF07#2@21"Copy directory_sm.png335949598#335949598#0(0"0(0#0#61"/Users/acid/Dropbox/code/gene/GNE Mac Status/directory_sm.png4529495696#377"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/directory_sm.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/dna-red.png" dna-red.png
+s335498084.578130
+e335498084.727583
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/dna-red.png
+xdna-red.png
+lSLF07#2@16"Copy dna-red.png335498084#335498084#0(0"0(0#0#56"/Users/acid/Dropbox/code/gene/GNE Mac Status/dna-red.png4402392720#372"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/dna-red.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/dna.png" dna.png
+s335949596.062122
+e335949596.104196
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/dna.png
+xdna.png
+lSLF07#2@12"Copy dna.png335949596#335949596#0(0"0(0#0#52"/Users/acid/Dropbox/code/gene/GNE Mac Status/dna.png4529495696#368"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/dna.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/drive_sm.png" drive_sm.png
+s335949598.591640
+e335949598.703160
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/drive_sm.png
+xdrive_sm.png
+lSLF07#2@17"Copy drive_sm.png335949598#335949598#0(0"0(0#0#57"/Users/acid/Dropbox/code/gene/GNE Mac Status/drive_sm.png4529495696#373"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/drive_sm.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/error_sm.png" error_sm.png
+s335949598.757127
+e335949598.815758
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/error_sm.png
+xerror_sm.png
+lSLF07#2@17"Copy error_sm.png335949598#335949598#0(0"0(0#0#57"/Users/acid/Dropbox/code/gene/GNE Mac Status/error_sm.png4529495696#373"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/error_sm.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/generic_sm.png" generic_sm.png
+s335949598.374063
+e335949598.534483
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/generic_sm.png
+xgeneric_sm.png
+lSLF07#2@19"Copy generic_sm.png335949598#335949598#0(0"0(0#0#59"/Users/acid/Dropbox/code/gene/GNE Mac Status/generic_sm.png4529495696#375"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/generic_sm.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/getADDomain.sh" getADDomain.sh
+s335949598.684879
+e335949598.797492
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/getADDomain.sh
+xgetADDomain.sh
+lSLF07#2@19"Copy getADDomain.sh335949598#335949598#0(0"0(0#0#59"/Users/acid/Dropbox/code/gene/GNE Mac Status/getADDomain.sh4529495696#375"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/getADDomain.sh" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/getADZone.sh" getADZone.sh
+s335949598.648360
+e335949598.703835
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/getADZone.sh
+xgetADZone.sh
+lSLF07#2@17"Copy getADZone.sh335949598#335949598#0(0"0(0#0#57"/Users/acid/Dropbox/code/gene/GNE Mac Status/getADZone.sh4529495696#373"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/getADZone.sh" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/getDSStatus.sh" getDSStatus.sh
+s335949598.652715
+e335949598.704017
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/getDSStatus.sh
+xgetDSStatus.sh
+lSLF07#2@19"Copy getDSStatus.sh335949598#335949598#0(0"0(0#0#59"/Users/acid/Dropbox/code/gene/GNE Mac Status/getDSStatus.sh4529495696#375"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/getDSStatus.sh" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/getDirectoryServiceStatus.sh" bin/getDirectoryServiceStatus.sh
+s335813667.279582
+e335813667.303399
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/getDirectoryServiceStatus.sh
+xbin/getDirectoryServiceStatus.sh
+lSLF07#2@37"Copy bin/getDirectoryServiceStatus.sh335813667#335813669#0(0"0(0#0#77"/Users/acid/Dropbox/code/gene/GNE Mac Status/bin/getDirectoryServiceStatus.sh4583468688#393"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/bin/getDirectoryServiceStatus.sh" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/getExampleScript.sh" getExampleScript.sh
+s335810618.643681
+e335810618.706759
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/getExampleScript.sh
+xgetExampleScript.sh
+lSLF07#2@24"Copy getExampleScript.sh335810618#335810618#0(0"0(0#0#64"/Users/acid/Dropbox/code/gene/GNE Mac Status/getExampleScript.sh4583468688#380"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/getExampleScript.sh" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/getJoinedAs.sh" getJoinedAs.sh
+s335949598.659339
+e335949598.704246
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/getJoinedAs.sh
+xgetJoinedAs.sh
+lSLF07#2@19"Copy getJoinedAs.sh335949598#335949598#0(0"0(0#0#59"/Users/acid/Dropbox/code/gene/GNE Mac Status/getJoinedAs.sh4529495696#375"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/getJoinedAs.sh" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/getSoftwareUpdates.sh" bin/getSoftwareUpdates.sh
+s335949596.312606
+e335949596.451177
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/getSoftwareUpdates.sh
+xbin/getSoftwareUpdates.sh
+lSLF07#2@30"Copy bin/getSoftwareUpdates.sh335949596#335949596#0(0"0(0#0#70"/Users/acid/Dropbox/code/gene/GNE Mac Status/bin/getSoftwareUpdates.sh4529495696#386"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/bin/getSoftwareUpdates.sh" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/green.png" green.png
+s335949596.078663
+e335949596.153869
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/green.png
+xgreen.png
+lSLF07#2@14"Copy green.png335949596#335949596#0(0"0(0#0#54"/Users/acid/Dropbox/code/gene/GNE Mac Status/green.png4529495696#370"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/green.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/grey.png" grey.png
+s335949596.379970
+e335949596.451572
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/grey.png
+xgrey.png
+lSLF07#2@13"Copy grey.png335949596#335949596#0(0"0(0#0#53"/Users/acid/Dropbox/code/gene/GNE Mac Status/grey.png4529495696#369"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/grey.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/hardware_sms.png" hardware_sms.png
+s335949598.381111
+e335949598.534699
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/hardware_sms.png
+xhardware_sms.png
+lSLF07#2@21"Copy hardware_sms.png335949598#335949598#0(0"0(0#0#61"/Users/acid/Dropbox/code/gene/GNE Mac Status/hardware_sms.png4529495696#377"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/hardware_sms.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/hd_space_large.jpg" hd_space_large.jpg
+s335469815.343657
+e335469815.396363
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/hd_space_large.jpg
+xhd_space_large.jpg
+lSLF07#2@23"Copy hd_space_large.jpg335469815#335469815#0(0"0(0#0#63"/Users/acid/Dropbox/code/gene/GNE Mac Status/hd_space_large.jpg4494720656#379"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/hd_space_large.jpg" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/healthy_sm.png" healthy_sm.png
+s335949598.727292
+e335949598.795111
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/healthy_sm.png
+xhealthy_sm.png
+lSLF07#2@19"Copy healthy_sm.png335949598#335949598#0(0"0(0#0#59"/Users/acid/Dropbox/code/gene/GNE Mac Status/healthy_sm.png4529495696#375"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/healthy_sm.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/lrg_green.png" lrg_green.png
+s335949598.460588
+e335949598.558324
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/lrg_green.png
+xlrg_green.png
+lSLF07#2@18"Copy lrg_green.png335949598#335949598#0(0"0(0#0#58"/Users/acid/Dropbox/code/gene/GNE Mac Status/lrg_green.png4529495696#374"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/lrg_green.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/lrg_red.png" lrg_red.png
+s335949598.490368
+e335949598.558607
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/lrg_red.png
+xlrg_red.png
+lSLF07#2@16"Copy lrg_red.png335949598#335949598#0(0"0(0#0#56"/Users/acid/Dropbox/code/gene/GNE Mac Status/lrg_red.png4529495696#372"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/lrg_red.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/lrg_yellow.png" lrg_yellow.png
+s335949598.495239
+e335949598.558948
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/lrg_yellow.png
+xlrg_yellow.png
+lSLF07#2@19"Copy lrg_yellow.png335949598#335949598#0(0"0(0#0#59"/Users/acid/Dropbox/code/gene/GNE Mac Status/lrg_yellow.png4529495696#375"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/lrg_yellow.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/red.png" red.png
+s335949596.064401
+e335949596.104409
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/red.png
+xred.png
+lSLF07#2@12"Copy red.png335949596#335949596#0(0"0(0#0#52"/Users/acid/Dropbox/code/gene/GNE Mac Status/red.png4529495696#368"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/red.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/refresh_sm.png" refresh_sm.png
+s335949598.704364
+e335949598.794097
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/refresh_sm.png
+xrefresh_sm.png
+lSLF07#2@19"Copy refresh_sm.png335949598#335949598#0(0"0(0#0#59"/Users/acid/Dropbox/code/gene/GNE Mac Status/refresh_sm.png4529495696#375"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/refresh_sm.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/repair.png" repair.png
+s335810618.639780
+e335810618.706593
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/repair.png
+xrepair.png
+lSLF07#2@15"Copy repair.png335810618#335810618#0(0"0(0#0#55"/Users/acid/Dropbox/code/gene/GNE Mac Status/repair.png4583468688#371"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/repair.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/repair_neg.png" repair_neg.png
+s335810619.016571
+e335810619.033722
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/repair_neg.png
+xrepair_neg.png
+lSLF07#2@19"Copy repair_neg.png335810619#335810619#0(0"0(0#0#59"/Users/acid/Dropbox/code/gene/GNE Mac Status/repair_neg.png4583468688#375"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/repair_neg.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/repair_sm.png" repair_sm.png
+s335949598.696046
+e335949598.798081
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/repair_sm.png
+xrepair_sm.png
+lSLF07#2@18"Copy repair_sm.png335949598#335949598#0(0"0(0#0#58"/Users/acid/Dropbox/code/gene/GNE Mac Status/repair_sm.png4529495696#374"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/repair_sm.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/security_sm.png" security_sm.png
+s335949598.388610
+e335949598.534911
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/security_sm.png
+xsecurity_sm.png
+lSLF07#2@20"Copy security_sm.png335949598#335949598#0(0"0(0#0#60"/Users/acid/Dropbox/code/gene/GNE Mac Status/security_sm.png4529495696#376"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/security_sm.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/sm_black_dna.png" sm_black_dna.png
+s335949596.093244
+e335949596.120401
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/sm_black_dna.png
+xsm_black_dna.png
+lSLF07#2@21"Copy sm_black_dna.png335949596#335949596#0(0"0(0#0#61"/Users/acid/Dropbox/code/gene/GNE Mac Status/sm_black_dna.png4529495696#377"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/sm_black_dna.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/sm_orange_dna.png" sm_orange_dna.png
+s335810616.613813
+e335810616.636049
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/sm_orange_dna.png
+xsm_orange_dna.png
+lSLF07#2@22"Copy sm_orange_dna.png335810616#335810616#0(0"0(0#0#62"/Users/acid/Dropbox/code/gene/GNE Mac Status/sm_orange_dna.png4583468688#378"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/sm_orange_dna.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/sm_red_dna.png" sm_red_dna.png
+s335949596.082910
+e335949596.120188
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/sm_red_dna.png
+xsm_red_dna.png
+lSLF07#2@19"Copy sm_red_dna.png335949596#335949596#0(0"0(0#0#59"/Users/acid/Dropbox/code/gene/GNE Mac Status/sm_red_dna.png4529495696#375"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/sm_red_dna.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/sm_yellow_dna.png" sm_yellow_dna.png
+s335949596.339070
+e335949596.451383
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/sm_yellow_dna.png
+xsm_yellow_dna.png
+lSLF07#2@22"Copy sm_yellow_dna.png335949596#335949596#0(0"0(0#0#62"/Users/acid/Dropbox/code/gene/GNE Mac Status/sm_yellow_dna.png4529495696#378"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/sm_yellow_dna.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/softwareupdate_sm.png" softwareupdate_sm.png
+s335949598.418093
+e335949598.535125
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/softwareupdate_sm.png
+xsoftwareupdate_sm.png
+lSLF07#2@26"Copy softwareupdate_sm.png335949598#335949598#0(0"0(0#0#66"/Users/acid/Dropbox/code/gene/GNE Mac Status/softwareupdate_sm.png4529495696#382"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/softwareupdate_sm.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/url_sm.png" url_sm.png
+s335949598.612924
+e335949598.703648
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/url_sm.png
+xurl_sm.png
+lSLF07#2@15"Copy url_sm.png335949598#335949598#0(0"0(0#0#55"/Users/acid/Dropbox/code/gene/GNE Mac Status/url_sm.png4529495696#371"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/url_sm.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CCpResource "build/Debug/GNE Mac Status.app/Contents/Resources/yellow.png" yellow.png
+s335949596.223205
+e335949596.248653
+r1
+xCpResource
+xbuild/Debug/GNE Mac Status.app/Contents/Resources/yellow.png
+xyellow.png
+lSLF07#2@15"Copy yellow.png335949596#335949596#0(0"0(0#0#55"/Users/acid/Dropbox/code/gene/GNE Mac Status/yellow.png4529495696#371"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/acid/Dropbox/code/gene/GNE Mac Status/yellow.png" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources"0#
+
+CDataModelCompile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/GNE_Mac_Status_DataModel.mom" "/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_DataModel.xcdatamodel"
+s335949610.027321
+e335949610.153545
+r1
+xDataModelCompile
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/GNE_Mac_Status_DataModel.mom
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_DataModel.xcdatamodel
+lSLF07#2@89"Compile /Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_DataModel.xcdatamodel335949610#335949610#0(0"0(0#0#81"/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_DataModel.xcdatamodel4529495696#321"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 "/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_DataModel.xcdatamodel" "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/GNE_Mac_Status_DataModel.mom"0#
+
+CLd "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/MacOS/GNE Mac Status" normal x86_64
+s335949617.307501
+e335949617.742464
+r1
+xLd
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/MacOS/GNE Mac Status
+xnormal
+xx86_64
+lSLF07#2@110"Link /Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/MacOS/GNE Mac Status335949617#335949617#0(0"0(0#0#0"4529495696#672"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" -filelist "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/Objects-normal/x86_64/GNE Mac Status.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework SystemConfiguration -framework CoreServices -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/MacOS/GNE Mac Status"0#
+
+COSACompile AttemptToRepair.applescript
+s335949610.028651
+e335949610.681476
+r1
+xOSACompile
+xAttemptToRepair.applescript
+lSLF07#2@35"Compile AttemptToRepair.applescript335949610#335949610#0(0"0(0#0#0"4529495696#245"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /usr/bin/osacompile -l AppleScript -d -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Resources/AttemptToRepair.scpt" AttemptToRepair.applescript0#
+
+CProcessInfoPlistFile "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Info.plist" GNE_Mac_Status-Info.plist
+s335949595.323540
+e335949595.332614
+r1
+xProcessInfoPlistFile
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Info.plist
+xGNE_Mac_Status-Info.plist
+lSLF07#2@33"Process GNE_Mac_Status-Info.plist335949595#335949595#0(0"0(0#0#70"/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status-Info.plist4529495808#355"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    builtin-infoPlistUtility GNE_Mac_Status-Info.plist -genpkginfo "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch.gch GNE_Mac_Status_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s335949600.671844
+e335949610.026291
+r1
+xProcessPCH
+x/var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch.gch
+xGNE_Mac_Status_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile GNE_Mac_Status_Prefix.pch335949600#335949610#0(0"0(0#0#70"/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_Prefix.pch4529495696#1121"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/GNE Mac Status.hmap" "-F/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/include" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources/x86_64" "-I/Users/acid/Dropbox/code/gene/GNE Mac Status/build/GNE Mac Status.build/Debug/GNE Mac Status.build/DerivedSources" -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/GNE_Mac_Status_Prefix.pch" -o /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/GNE_Mac_Status_Prefix-carjomtateycowfwikmadocwnaby/GNE_Mac_Status_Prefix.pch.gch0#
+
+CTouch "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app"
+s335949617.742602
+e335949617.758413
+r1
+xTouch
+x/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app
+lSLF07#2@81"Touch /Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app335949617#335949617#0(0"0(0#0#0"4529495696#154"    cd "/Users/acid/Dropbox/code/gene/GNE Mac Status"    /usr/bin/touch -c "/Users/acid/Dropbox/code/gene/GNE Mac Status/build/Debug/GNE Mac Status.app"0#
+

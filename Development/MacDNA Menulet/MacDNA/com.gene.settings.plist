@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>debugEnabled</key>
+	<false/>
+	<key>deferEnabled</key>
+	<false/>
+	<key>flashOnCritical</key>
+	<true/>
+	<key>flashOnWarning</key>
+	<false/>
+	<key>globalStatusInterval</key>
+	<string>10</string>
+	<key>supportLinks</key>
+	<array>
+		<dict>
+			<key>subMenuTitle</key>
+			<string>Go to JAMF Nation</string>
+			<key>getURL</key>
+			<string>http://www.jamfnation.com</string>
+		</dict>
+		<dict>
+			<key>subMenuTitle</key>
+			<string>Go to CrashPlan</string>
+			<key>getURL</key>
+			<string>http://www.crashplan.com</string>
+		</dict>
+		<dict>
+			<key>subMenuTitle</key>
+			<string>Go to Centrify</string>
+			<key>getURL</key>
+			<string>http://www.centrify.com</string>
+		</dict>
+		<dict>
+			<key>subMenuTitle</key>
+			<string>Go to Apple</string>
+			<key>getURL</key>
+			<string>http://www.apple.com</string>
+		</dict>
+	</array>
+	<key>warnHDUsage</key>
+	<true/>
+	<key>DiskUsage</key>
+	<dict>
+		<key>checkEnabled</key>
+		<true/>
+		<key>summaryTitle</key>
+		<string>Disk Usage</string>
+		<key>summaryImage</key>
+		<string>drive_sm</string>
+		<key>warningText</key>
+		<string>Your drive is at %@ percent capacity; You are running out of storage space</string>
+		<key>criticalText</key>
+		<string>Your drive is at %@ percent capacity; You are running out of storage space</string>
+		<key>passedText</key>
+		<string>Your drive is at %@ percent capacity which is within your defined normal limits</string>
+	</dict>
+	<key>diskCritical</key>
+	<integer>95</integer>
+	<key>diskWarning</key>
+	<integer>90</integer>
+	<key>HDsize</key>
+	<dict>
+		<key>checkEnabled</key>
+		<true/>
+		<key>summaryTitle</key>
+		<string>Disk Capacity</string>
+		<key>summaryImage</key>
+		<string>drive_sm</string>
+		<key>warningText</key>
+		<string>Your drive capacity is at %@</string>
+		<key>criticalText</key>
+		<string>Your drive capacity is at %@</string>
+		<key>passedText</key>
+		<string>Your drive capacity is at %@</string>
+	</dict>
+	<key>Generic</key>
+	<dict>
+		<key>checkEnabled</key>
+		<true/>
+		<key>summaryTitle</key>
+		<string>Advanced Script</string>
+		<key>summaryImage</key>
+		<string>generic_sm</string>
+		<key>warningText</key>
+		<string>A custom check script is in warning</string>
+		<key>criticalText</key>
+		<string>A custom check script is in critical</string>
+		<key>passedText</key>
+		<string>A custom check script is in passed</string>
+	</dict>
+	<key>Updates</key>
+	<dict>
+		<key>checkEnabled</key>
+		<true/>
+		<key>summaryTitle</key>
+		<string>Software Update</string>
+		<key>summaryImage</key>
+		<string>softwareupdate_sm</string>
+		<key>warningText</key>
+		<string>You currently have %@ software update(s) available</string>
+		<key>criticalText</key>
+		<string>You currenly have not updated in %@ days; Please run Apple Software Update</string>
+		<key>passedText</key>
+		<string>Your system is currently up-to-date</string>
+	</dict>
+	<key>UpdatesDate</key>
+	<dict>
+		<key>checkEnabled</key>
+		<true/>
+		<key>summaryTitle</key>
+		<string>Software Update</string>
+		<key>summaryImage</key>
+		<string>softwareupdate_sm</string>
+		<key>warningText</key>
+		<string>The last software update check was %@</string>
+		<key>criticalText</key>
+		<string>The last software update check was %@</string>
+		<key>passedText</key>
+		<string>You have checked for Apple software updates recently</string>
+	</dict>
+	<key>warnOnBackupUsage</key>
+	<true/>
+	<key>CrashPlanDate</key>
+	<dict>
+		<key>checkEnabled</key>
+		<true/>
+		<key>summaryTitle</key>
+		<string>Backup Status</string>
+		<key>summaryImage</key>
+		<string>backup_sm</string>
+		<key>warningText</key>
+		<string>You currently have not backed up for %@ days</string>
+		<key>criticalText</key>
+		<string>You currently have not backed up in %@ days; Please contact the Help Desk Immediately</string>
+		<key>passedText</key>
+		<string>You last backed up: %@</string>
+	</dict>
+	<key>backupWarning</key>
+	<integer>7</integer>
+	<key>bakupCritical</key>
+	<integer>30</integer>
+	<key>CrashPlanPercentage</key>
+	<dict>
+		<key>checkEnabled</key>
+		<true/>
+		<key>summaryTitle</key>
+		<string>Backup Percentage</string>
+		<key>summaryImage</key>
+		<string>backup_sm</string>
+		<key>warningText</key>
+		<string>You have backed up %@%% of your data</string>
+		<key>criticalText</key>
+		<string>You have backed up %@%% of your data</string>
+		<key>passedText</key>
+		<string>You have backed up %@%% of your data</string>
+	</dict>
+	<key>Smart</key>
+	<dict>
+		<key>checkEnabled</key>
+		<true/>
+		<key>summaryTitle</key>
+		<string>Storage Health</string>
+		<key>summaryImage</key>
+		<string>drive_sm</string>
+		<key>warningText</key>
+		<string>Your current drive status is %@</string>
+		<key>criticalText</key>
+		<string>Your current drive status is %@</string>
+		<key>passedText</key>
+		<string>Your storage is in good health</string>
+	</dict>
+	<key>Casper</key>
+	<dict>
+		<key>checkEnabled</key>
+		<true/>
+		<key>summaryTitle</key>
+		<string>Security Status</string>
+		<key>summaryImage</key>
+		<string>security_sm</string>
+		<key>warningText</key>
+		<string>You computer has not checked in for security updates in %@ days</string>
+		<key>criticalText</key>
+		<string>You computer has not checked in for security updates in %@ days</string>
+		<key>passedText</key>
+		<string>Your computer security is up-to-date</string>
+	</dict>
+	<key>Battery</key>
+	<dict>
+		<key>checkEnabled</key>
+		<true/>
+		<key>summaryTitle</key>
+		<string>Battery Health</string>
+		<key>summaryImage</key>
+		<string>battery_sm</string>
+		<key>warningText</key>
+		<string>Your battery health is: %@</string>
+		<key>criticalText</key>
+		<string>Your battery health is: %@</string>
+		<key>passedText</key>
+		<string>Your battery is reporting healthy</string>
+	</dict>
+	<key>installPhaseTxt</key>
+	<string>/private/tmp/com.gene.pleasewait.phase</string>
+	<key>installProgressFile</key>
+	<string>/private/tmp/com.gene.pleasewait.installprogress</string>
+	<key>installProgressTxt</key>
+	<string>/private/tmp/com.gene.pleasewait.progress</string>
+	<key>warningTitle</key>
+	<string> Warnings Identified</string>
+	<key>criticalTitle</key>
+	<string> Critical Issues Identified</string>
+	<key>passedTitle</key>
+	<string> No Warnings Identified</string>
+	<key>repairNeededTitle</key>
+	<string> Attempt Repairs...</string>
+	<key>repairNotNeededTitle</key>
+	<string> Show Details...</string>
+	<key>securityWarningInt</key>
+	<string>7</string>
+	<key>securityCriticalInt</key>
+	<string>30</string>
+	<key>homeDirectory</key>
+	<string>/var/gne/macdna</string>
+	<key>backupBreadCrum</key>
+	<string>/var/gne/macdna/.crashplandate</string>
+	<key>backupOverride</key>
+	<string>/var/gne/macdna/.nobackup</string>
+	<key>backupGUIDBreadCrum</key>
+	<string>/var/gne/macdna/.crashplanguid</string>
+	<key>backupPercentageBreadCrum</key>
+	<string>/var/gne/macdna/.crashplanpercentage</string>
+	<key>backupUserBreadCrum</key>
+	<string>/var/gne/macdna/.crashplanuser</string>
+	<key>casperBreadCrum</key>
+	<string>/var/gne/macdna/.caspercheck</string>
+	<key>systemTypeBreadCrum</key>
+	<string>/var/gne/.systemtype</string>
+	<key>systemImageVersion</key>
+	<string>/var/gne/macdna/.imageversion</string>
+	<key>companyName</key>
+	<string>Genentech</string>
+	<key>backupBundleID</key>
+	<string>com.backup42.desktop</string>
+	<key>backupToolPath</key>
+	<string>/Applications/CrashPlan.app</string>
+	<key>swUpdateBundleID</key>
+	<string>com.apple.SoftwareUpdate</string>
+	<key>swupToolPath</key>
+	<string>/System/Library/CoreServices/Software Update.app</string>
+	<key>directoryServiceToolPath</key>
+	<string>/Library/Genentech/Centrify/MacADUtility.app</string>
+	<key>directoryServiceToolBundleID</key>
+	<string>com.gene.macAD</string>
+	<key>passwordToolPath</key>
+	<string>/Applications/Utilities/PasswordUtility.app</string>
+	<key>passwordToolBundleID</key>
+	<string>com.gene.password.launcher</string>
+	<key>reconToolPath</key>
+	<string>/var/gne/macdna/Mac DNA.app/Contents/Resources/MacDNA Refresh.app</string>
+	<key>reconToolBundleID</key>
+	<string>com.gene.macdna.refresh</string>
+	<key>pollBatteryInterval</key>
+	<string>86400</string>
+	<key>pollBackupInterval</key>
+	<string>86400</string>
+	<key>pollSMARTInterval</key>
+	<string>86400</string>
+	<key>pluginsOverride</key>
+	<string>/var/gne/macdna/.nodirectory</string>
+	<key>deferDefaultText</key>
+	<string>Disable alerts for 24 hours...</string>
+	<key>deferDefaultToolTip</key>
+	<string>Click here to stop menu from changing color</string>
+	<key>scriptPlugins</key>
+	<dict>
+		<key>nonPrivilegedScripts</key>
+		<dict>
+			<key>B19FA50D-5159-4F85-8638-8ED165E82108</key>
+			<dict>
+				<key>onlyShowFailiures</key>
+				<false/>
+				<key>headerTitle</key>
+				<string> Directory Services</string>
+				<key>headerImage</key>
+				<string>backup_sm</string>
+				<key>identifier</key>
+				<string>DirectoryService</string>
+				<key>itemScripts</key>
+				<array>
+					<dict>
+						<key>isAlternate</key>
+						<true/>
+						<key>exitCodes</key>
+						<dict>
+							<key>0</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>Centrify DC Zone</string>
+								<key>scriptFailedTitle</key>
+								<string>Not Configured</string>
+							</dict>
+							<key>192</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>This is a loaner system</string>
+								<key>scriptFailedTitle</key>
+								<string>CentrifyDC Zone: N/A</string>
+							</dict>
+						</dict>
+						<key>scriptFailedTitle</key>
+						<string>Directory Services</string>
+						<key>scriptFailedDescription</key>
+						<string>1 or more software updates are available at this time</string>
+						<key>scriptFailedAction</key>
+						<string>None</string>
+						<key>scriptEndTitle</key>
+						<string>Connected to Active Directory</string>
+						<key>scriptEndDescription</key>
+						<string>No action is necessary at this time</string>
+						<key>scriptTitle</key>
+						<string>Running Software Update Checks</string>
+						<key>scriptDescription</key>
+						<string>Checking Directory Service Conections</string>
+						<key>scriptPath</key>
+						<string>getJoinedAs</string>
+						<key>scriptExtention</key>
+						<string>sh</string>
+						<key>scriptIsInBundle</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>isAlternate</key>
+						<false/>
+						<key>exitCodes</key>
+						<dict>
+							<key>0</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>Centrify DC Zone</string>
+								<key>scriptFailedTitle</key>
+								<string>Not Configured</string>
+							</dict>
+							<key>192</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>This is a loaner system</string>
+								<key>scriptFailedTitle</key>
+								<string>CentrifyDC Zone: N/A</string>
+							</dict>
+						</dict>
+						<key>scriptFailedTitle</key>
+						<string>Directory Services</string>
+						<key>scriptFailedDescription</key>
+						<string>1 or more software updates are available at this time</string>
+						<key>scriptFailedAction</key>
+						<string>None</string>
+						<key>scriptEndTitle</key>
+						<string>Connected to Active Directory</string>
+						<key>scriptEndDescription</key>
+						<string>No action is necessary at this time</string>
+						<key>scriptTitle</key>
+						<string>Running Software Update Checks</string>
+						<key>scriptDescription</key>
+						<string>Checking Directory Service Connections</string>
+						<key>scriptPath</key>
+						<string>getADDomain</string>
+						<key>scriptExtention</key>
+						<string>sh</string>
+						<key>scriptIsInBundle</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>isAlternate</key>
+						<true/>
+						<key>exitCodes</key>
+						<dict>
+							<key>0</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>Centrify DC Zone</string>
+								<key>scriptFailedTitle</key>
+								<string>Not Configured</string>
+							</dict>
+							<key>192</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>This is a loaner system</string>
+								<key>scriptFailedTitle</key>
+								<string>CentrifyDC Zone: N/A</string>
+							</dict>
+						</dict>
+						<key>scriptFailedTitle</key>
+						<string>Directory Services</string>
+						<key>scriptFailedDescription</key>
+						<string>1 or more software updates are available at this time</string>
+						<key>scriptFailedAction</key>
+						<string>None</string>
+						<key>scriptEndTitle</key>
+						<string>Connected to windows.gene.com</string>
+						<key>scriptEndDescription</key>
+						<string>No action is necessary at this time</string>
+						<key>scriptTitle</key>
+						<string>Running Software Update Checks</string>
+						<key>scriptDescription</key>
+						<string>Checking Directory Service Connections</string>
+						<key>scriptPath</key>
+						<string>getADZone</string>
+						<key>scriptExtention</key>
+						<string>sh</string>
+						<key>scriptIsInBundle</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>isAlternate</key>
+						<false/>
+						<key>exitCodes</key>
+						<dict>
+							<key>1</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>/usr/bin/adinfo is not installed</string>
+								<key>scriptFailedTitle</key>
+								<string>Not installed</string>
+							</dict>
+							<key>2</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>/usr/bin/adinfo is not installed</string>
+								<key>scriptFailedTitle</key>
+								<string>Not Joined to Directory</string>
+							</dict>
+							<key>0</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>This is a loaner system</string>
+								<key>scriptFailedTitle</key>
+								<string>Not Configured</string>
+							</dict>
+							<key>192</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>This is a Loner System</string>
+								<key>scriptFailedTitle</key>
+								<string>Not Joined: Loner System</string>
+							</dict>
+						</dict>
+						<key>scriptFailedTitle</key>
+						<string>Directory Services</string>
+						<key>scriptFailedDescription</key>
+						<string>1 or more software updates are available at this time</string>
+						<key>scriptFailedAction</key>
+						<string>None</string>
+						<key>scriptEndTitle</key>
+						<string>Connected to windows.gene.com</string>
+						<key>scriptEndDescription</key>
+						<string>No action is necessary at this time</string>
+						<key>scriptTitle</key>
+						<string>Running Software Update Checks</string>
+						<key>scriptDescription</key>
+						<string>Checking Directory Service Connections</string>
+						<key>scriptPath</key>
+						<string>getDSStatus</string>
+						<key>scriptExtention</key>
+						<string>sh</string>
+						<key>scriptIsInBundle</key>
+						<true/>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>getSoftwareUpdates</key>
+	<dict>
+		<key>exitCodes</key>
+		<dict>
+			<key>192</key>
+			<dict>
+				<key>scriptFailedDescription</key>
+				<string>Your internet connection appears to be offline.</string>
+				<key>scriptFailedTitle</key>
+				<string>Internet Offline</string>
+			</dict>
+		</dict>
+		<key>scriptFailedTitle</key>
+		<string>Software Updates are avaiable</string>
+		<key>scriptFailedDescription</key>
+		<string>1 or more software updates are available at this time</string>
+		<key>scriptFailedAction</key>
+		<string>None</string>
+		<key>scriptEndTitle</key>
+		<string>You Mac is up to date</string>
+		<key>scriptEndDescription</key>
+		<string>No action is necessary at this time</string>
+		<key>scriptTitle</key>
+		<string>Running Software Update Checks</string>
+		<key>scriptDescription</key>
+		<string>Checking your system for available software updates</string>
+		<key>scriptPath</key>
+		<string>getSoftwareUpdates</string>
+		<key>scriptExtention</key>
+		<string>sh</string>
+		<key>scriptIsInBundle</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
